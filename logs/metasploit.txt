@@ -1,0 +1,742 @@
+goenv: WARNING: System 'go' found at /usr/bin/go
+goenv: Since your shims are at the end of PATH, system 'go' will be used instead of goenv-managed versions.
+goenv: To fix this, add the following to your /home/arsi/.goenvrc:
+goenv:     export GOENV_PATH_ORDER=front
+goenv: Or run: echo 'export GOENV_PATH_ORDER=front' >> /home/arsi/.goenvrc
+
+-bash: /home/arsi/.bashrc: line 163: syntax error near unexpected token `('
+-bash: /home/arsi/.bashrc: line 163: `export PATH=/home/arsi/.local/bin:/home/arsi/.local/bin:/home/arsi/.pyenv/shims:/home/arsi/.pyenv/bin:/home/arsi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/arsi/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/PyManager/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/arsi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/arsi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/arsi/.dotnet/tools:/mnt/c/Users/arsi/AppData/Roaming/npm:/mnt/c/Users/arsi/AppData/Local/Python/bin:/mnt/c/Python27/Tools:/mnt/c/Python27/:/mnt/c/Python27/Tools/Scripts:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/arsi/AppData/Local/Keybase/'
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ mfs
+Command 'mfs' not found, did you mean:
+  command 'mf' from deb texlive-binaries
+  command 'mft' from deb texlive-binaries
+  command 'bfs' from deb bfs
+  command 'mvs' from deb libwww-mediawiki-client-perl
+  command 'mcs' from deb mono-devel
+  command 'zfs' from deb zfs-fuse
+  command 'zfs' from deb zfsutils-linux
+  command 'tmfs' from deb tmfs
+  command 'mkfs' from deb util-linux
+Try: sudo apt install <deb name>
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ mts
+Command 'mts' not found, did you mean:
+  command 'mtr' from deb mtr
+  command 'mtr' from deb mtr-tiny
+  command 'mtt' from deb xawtv
+  command 'mtx' from deb mtx
+  command 'mcs' from deb mono-devel
+  command 'bts' from deb devscripts
+  command 'ots' from deb ots
+  command 'imts' from deb osmocom-analog
+  command 'mtst' from deb scotch
+  command 'hts' from deb httptunnel
+  command 'mtp' from deb ferret-vis
+  command 'mvs' from deb libwww-mediawiki-client-perl
+  command 'ts' from deb moreutils
+Try: sudo apt install <deb name>
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ sudo apt-get install metasploit
+[sudo] password for arsi:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package metasploit is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'metasploit' has no installation candidate
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ mts
+Command 'mts' not found, did you mean:
+  command 'mtx' from deb mtx
+  command 'ots' from deb ots
+  command 'mvs' from deb libwww-mediawiki-client-perl
+  command 'ts' from deb moreutils
+  command 'mcs' from deb mono-devel
+  command 'mtt' from deb xawtv
+  command 'mtr' from deb mtr
+  command 'mtr' from deb mtr-tiny
+  command 'hts' from deb httptunnel
+  command 'bts' from deb devscripts
+  command 'imts' from deb osmocom-analog
+  command 'mtst' from deb scotch
+  command 'mtp' from deb ferret-vis
+Try: sudo apt install <deb name>
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ sudo apt-get install metasploit-framework
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+metasploit-framework is already the newest version (6.4.99-0kali1).
+metasploit-framework set to manually installed.
+Solving dependencies... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ metasploit-framework
+metasploit-framework: command not found
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ msfconsole
+Metasploit tip: You can pivot connections over sessions started with the
+ssh_login modules
+
+
+Unable to handle kernel NULL pointer dereference at virtual address 0xd34db33f
+EFLAGS: 00010046
+eax: 00000001 ebx: f77c8c00 ecx: 00000000 edx: f77f0001
+esi: 803bf014 edi: 8023c755 ebp: 80237f84 esp: 80237f60
+ds: 0018   es: 0018  ss: 0018
+Process Swapper (Pid: 0, process nr: 0, stackpage=80377000)
+
+
+Stack: 90909090990909090990909090
+       90909090990909090990909090
+       90909090.90909090.90909090
+       90909090.90909090.90909090
+       90909090.90909090.09090900
+       90909090.90909090.09090900
+       ..........................
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       ccccccccc.................
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       .................ccccccccc
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       ..........................
+       ffffffffffffffffffffffffff
+       ffffffff..................
+       ffffffffffffffffffffffffff
+       ffffffff..................
+       ffffffff..................
+       ffffffff..................
+
+
+Code: 00 00 00 00 M3 T4 SP L0 1T FR 4M 3W OR K! V3 R5 I0 N5 00 00 00 00
+Aiee, Killing Interrupt handler
+Kernel panic: Attempted to kill the idle task!
+In swapper task - not syncing
+
+
+       =[ metasploit v6.4.99-dev                                ]
++ -- --=[ 2,572 exploits - 1,317 auxiliary - 1,680 payloads     ]
++ -- --=[ 432 post - 49 encoders - 13 nops - 9 evasion          ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+The Metasploit Framework is a Rapid7 Open Source Project
+
+msf > Wordpress 6.9.1
+[-] Unknown command: Wordpress. Run the help command for more details.
+msf > help
+
+Core Commands
+=============
+
+    Command           Description
+    -------           -----------
+    ?                 Help menu
+    banner            Display an awesome metasploit banner
+    cd                Change the current working directory
+    color             Toggle color
+    connect           Communicate with a host
+    debug             Display information useful for debugging
+    exit              Exit the console
+    features          Display the list of not yet released features that can be opted in to
+    get               Gets the value of a context-specific variable
+    getg              Gets the value of a global variable
+    grep              Grep the output of another command
+    help              Help menu
+    history           Show command history
+    load              Load a framework plugin
+    quit              Exit the console
+    repeat            Repeat a list of commands
+    route             Route traffic through a session
+    save              Saves the active datastores
+    sessions          Dump session listings and display information about sessions
+    set               Sets a context-specific variable to a value
+    setg              Sets a global variable to a value
+    sleep             Do nothing for the specified number of seconds
+    spool             Write console output into a file as well the screen
+    threads           View and manipulate background threads
+    tips              Show a list of useful productivity tips
+    unload            Unload a framework plugin
+    unset             Unsets one or more context-specific variables
+    unsetg            Unsets one or more global variables
+    version           Show the framework and console library version numbers
+
+
+Module Commands
+===============
+
+    Command           Description
+    -------           -----------
+    advanced          Displays advanced options for one or more modules
+    back              Move back from the current context
+    clearm            Clear the module stack
+    favorite          Add module(s) to the list of favorite modules
+    favorites         Print the list of favorite modules (alias for `show favorites`)
+    info              Displays information about one or more modules
+    listm             List the module stack
+    loadpath          Searches for and loads modules from a path
+    options           Displays global options or for one or more modules
+    popm              Pops the latest module off the stack and makes it active
+    previous          Sets the previously loaded module as the current module
+    pushm             Pushes the active or list of modules onto the module stack
+    reload_all        Reloads all modules from all defined module paths
+    search            Searches module names and descriptions
+    show              Displays modules of a given type, or all modules
+    use               Interact with a module by name or search term/index
+
+
+Job Commands
+============
+
+    Command           Description
+    -------           -----------
+    handler           Start a payload handler as job
+    jobs              Displays and manages jobs
+    kill              Kill a job
+    rename_job        Rename a job
+
+
+Resource Script Commands
+========================
+
+    Command           Description
+    -------           -----------
+    makerc            Save commands entered since start to a file
+    resource          Run the commands stored in a file
+
+
+Database Backend Commands
+=========================
+
+    Command           Description
+    -------           -----------
+    analyze           Analyze database information about a specific address or address range
+    certs             List Pkcs12 certificate bundles in the database
+    db_connect        Connect to an existing data service
+    db_disconnect     Disconnect from the current data service
+    db_export         Export a file containing the contents of the database
+    db_import         Import a scan result file (filetype will be auto-detected)
+    db_nmap           Executes nmap and records the output automatically
+    db_rebuild_cache  Rebuilds the database-stored module cache (deprecated)
+    db_remove         Remove the saved data service entry
+    db_save           Save the current data service connection as the default to reconnect on startup
+    db_stats          Show statistics for the database
+    db_status         Show the current data service status
+    hosts             List all hosts in the database
+    klist             List Kerberos tickets in the database
+    loot              List all loot in the database
+    notes             List all notes in the database
+    services          List all services in the database
+    vulns             List all vulnerabilities in the database
+    workspace         Switch between database workspaces
+
+
+Credentials Backend Commands
+============================
+
+    Command           Description
+    -------           -----------
+    creds             List all credentials in the database
+
+
+Developer Commands
+==================
+
+    Command           Description
+    -------           -----------
+    edit              Edit the current module or a file with the preferred editor
+    irb               Open an interactive Ruby shell in the current context
+    log               Display framework.log paged to the end if possible
+    pry               Open the Pry debugger on the current module or Framework
+    reload_lib        Reload Ruby library files from specified paths
+    time              Time how long it takes to run a particular command
+
+
+DNS Commands
+============
+
+    Command           Description
+    -------           -----------
+    dns               Manage Metasploit's DNS resolving behaviour
+
+For more info on a specific command, use <command> -h or help <command>.
+
+
+msfconsole
+==========
+
+`msfconsole` is the primary interface to Metasploit Framework. There is quite a
+lot that needs go here, please be patient and keep an eye on this space!
+
+Building ranges and lists
+-------------------------
+
+Many commands and options that take a list of things can use ranges to avoid
+having to manually list each desired thing. All ranges are inclusive.
+
+### Ranges of IDs
+
+Commands that take a list of IDs can use ranges to help. Individual IDs must be
+separated by a `,` (no space allowed) and ranges can be expressed with either
+`-` or `..`.
+
+### Ranges of IPs
+
+There are several ways to specify ranges of IP addresses that can be mixed
+together. The first way is a list of IPs separated by just a ` ` (ASCII space),
+with an optional `,`. The next way is two complete IP addresses in the form of
+`BEGINNING_ADDRESS-END_ADDRESS` like `127.0.1.44-127.0.2.33`. CIDR
+specifications may also be used, however the whole address must be given to
+Metasploit like `127.0.0.0/8` and not `127/8`, contrary to the RFC.
+Additionally, a netmask can be used in conjunction with a domain name to
+dynamically resolve which block to target. All these methods work for both IPv4
+and IPv6 addresses. IPv4 addresses can also be specified with special octet
+ranges from the [NMAP target
+specification](https://nmap.org/book/man-target-specification.html)
+
+### Examples
+
+Terminate the first sessions:
+
+    sessions -k 1
+
+Stop some extra running jobs:
+
+    jobs -k 2-6,7,8,11..15
+
+Check a set of IP addresses:
+
+    check 127.168.0.0/16, 127.0.0-2.1-4,15 127.0.0.255
+
+Target a set of IPv6 hosts:
+
+    set RHOSTS fe80::3990:0000/110, ::1-::f0f0
+
+Target a block from a resolved domain name:
+
+    set RHOSTS www.example.test/24
+msf > set RHOSTS pfadi-pulacha.ch
+RHOSTS => pfadi-pulacha.ch
+msf > search wordpress
+
+Matching Modules
+================
+
+   #    Name                                                           Disclosure Date  Rank       Check  Description
+   -    ----                                                           ---------------  ----       -----  -----------
+   0    auxiliary/scanner/http/wp_abandoned_cart_sqli                  2020-11-05       normal     No     Abandoned Cart for WooCommerce SQLi Scanner
+   1    exploit/windows/fileformat/adobe_flashplayer_button            2010-10-28       normal     No     Adobe Flash Player "Button" Remote Code Execution
+   2    exploit/windows/browser/adobe_flashplayer_newfunction          2010-06-04       normal     No     Adobe Flash Player "newfunction" Invalid Pointer Use
+   3    exploit/windows/fileformat/adobe_flashplayer_newfunction       2010-06-04       normal     No     Adobe Flash Player "newfunction" Invalid Pointer Use
+   4    exploit/osx/local/rootpipe_entitlements                        2015-07-01       great      Yes    Apple OS X Entitlements Rootpipe Privilege Escalation
+   5    exploit/osx/local/rootpipe                                     2015-04-09       great      Yes    Apple OS X Rootpipe Privilege Escalation
+   6    exploit/windows/ftp/easyftp_cwd_fixret                         2010-02-16       great      Yes    EasyFTP Server CWD Command Stack Buffer Overflow
+   7      \_ target: Windows Universal - v1.7.0.2                      .                .          .      .
+   8      \_ target: Windows Universal - v1.7.0.3                      .                .          .      .
+   9      \_ target: Windows Universal - v1.7.0.4                      .                .          .      .
+   10     \_ target: Windows Universal - v1.7.0.5                      .                .          .      .
+   11     \_ target: Windows Universal - v1.7.0.6                      .                .          .      .
+   12     \_ target: Windows Universal - v1.7.0.7                      .                .          .      .
+   13     \_ target: Windows Universal - v1.7.0.8                      .                .          .      .
+   14     \_ target: Windows Universal - v1.7.0.9                      .                .          .      .
+   15     \_ target: Windows Universal - v1.7.0.10                     .                .          .      .
+   16     \_ target: Windows Universal - v1.7.0.11                     .                .          .      .
+   17   exploit/freebsd/local/rtld_execl_priv_esc                      2009-11-30       excellent  Yes    FreeBSD rtld execl() Privilege Escalation
+   18   auxiliary/scanner/kademlia/server_info                         .                normal     No     Gather Kademlia Server Information
+   19     \_ action: BOOTSTRAP                                         .                .          .      Use a Kademlia2 BOOTSTRAP
+   20     \_ action: PING                                              .                .          .      Use a Kademlia2 PING
+   21   exploit/multi/http/wp_givewp_rce                               2024-08-25       excellent  Yes    GiveWP Unauthenticated Donation Process Exploit
+   22     \_ target: Unix/Linux Command Shell                          .                .          .      .
+   23     \_ target: Windows Command Shell                             .                .          .      .
+   24   exploit/unix/webapp/joomla_akeeba_unserialize                  2014-09-29       excellent  Yes    Joomla Akeeba Kickstart Unserialize Remote Code Execution
+   25   payload/linux/riscv32le/exec                                   .                normal     No     Linux Execute Command
+   26   payload/linux/riscv64le/exec                                   .                normal     No     Linux Execute Command
+   27   exploit/windows/fileformat/ms12_005                            2012-01-10       excellent  No     MS12-005 Microsoft Office ClickOnce Unsafe Object Package Handling Vulnerability
+   28   exploit/unix/webapp/php_xmlrpc_eval                            2005-06-29       excellent  Yes    PHP XML-RPC Arbitrary Code Execution
+   29   exploit/unix/http/pihole_dhcp_mac_exec                         2020-03-28       good       Yes    Pi-Hole DHCP MAC OS Command Execution
+   30   exploit/linux/misc/quest_pmmasterd_bof                         2017-04-09       normal     Yes    Quest Privilege Manager pmmasterd Buffer Overflow
+   31     \_ target: Quest Privilege Manager pmmasterd 6.0.0-27 x64    .                .          .      .
+   32     \_ target: Quest Privilege Manager pmmasterd 6.0.0-27 x86    .                .          .      .
+   33   exploit/windows/http/sws_connection_bof                        2012-07-20       normal     Yes    Simple Web Server Connection Header Buffer Overflow
+   34   exploit/multi/php/wp_duplicator_code_inject                    2018-08-29       manual     Yes    Snap Creek Duplicator WordPress plugin code injection
+   35   exploit/multi/http/wp_tatsu_rce                                2022-04-25       excellent  Yes    Tatsu Wordpress Plugin RCE
+   36   exploit/multi/http/wp_bricks_builder_rce                       2024-02-19       excellent  Yes    Unauthenticated RCE in Bricks Builder Theme
+   37     \_ target: Automatic                                         .                .          .      .
+   38     \_ target: PHP In-Memory                                     .                .          .      .
+   39     \_ target: Unix In-Memory                                    .                .          .      .
+   40     \_ target: Windows In-Memory                                 .                .          .      .
+   41   exploit/multi/http/wp_db_backup_rce                            2019-04-24       excellent  Yes    WP Database Backup RCE
+   42     \_ target: Windows                                           .                .          .      .
+   43     \_ target: Linux                                             .                .          .      .
+   44   exploit/multi/http/wp_user_registration_membership_escalation  2025-03-24       excellent  Yes    WP User Registration and Membership Unauthenticated Privilege Escalation (CVE-2025-2563)
+   45     \_ target: PHP In-Memory                                     .                .          .      .
+   46     \_ target: Unix In-Memory                                    .                .          .      .
+   47     \_ target: Windows In-Memory                                 .                .          .      .
+   48   exploit/windows/fileformat/winrar_name_spoofing                2009-09-28       excellent  No     WinRAR Filename Spoofing
+   49   post/windows/gather/credentials/razer_synapse                  .                normal     No     Windows Gather Razer Synapse Password Extraction
+   50   exploit/multi/http/wp_ait_csv_rce                              2020-11-14       excellent  Yes    WordPress AIT CSV Import Export Unauthenticated Remote Code Execution
+   51   exploit/unix/webapp/wp_admin_shell_upload                      2015-02-21       excellent  Yes    WordPress Admin Shell Upload
+   52   auxiliary/gather/wp_all_in_one_migration_export                2015-03-19       normal     Yes    WordPress All-in-One Migration Export
+   53   exploit/unix/webapp/wp_asset_manager_upload_exec               2012-05-26       excellent  Yes    WordPress Asset-Manager PHP File Upload Vulnerability
+   54   exploit/multi/http/wp_backup_migration_php_filter              2023-12-11       excellent  Yes    WordPress Backup Migration Plugin PHP Filter Chain RCE
+   55     \_ target: PHP In-Memory                                     .                .          .      .
+   56     \_ target: Unix/Linux Command Shell                          .                .          .      .
+   57     \_ target: Windows Command Shell                             .                .          .      .
+   58   auxiliary/scanner/http/wordpress_login_enum                    .                normal     No     WordPress Brute Force and User Enumeration Utility
+   59   auxiliary/scanner/http/wordpress_cp_calendar_sqli              2015-03-03       normal     No     WordPress CP Multi-View Calendar Unauthenticated SQL Injection Scanner
+   60   auxiliary/scanner/http/wp_chopslider_id_sqli                   2020-05-12       normal     No     WordPress ChopSlider3 id SQLi Scanner
+   61   auxiliary/scanner/http/wp_contus_video_gallery_sqli            2015-02-24       normal     No     WordPress Contus Video Gallery Unauthenticated SQL Injection Scanner
+   62   exploit/multi/http/wp_crop_rce                                 2019-02-19       excellent  Yes    WordPress Crop-image Shell Upload
+   63   auxiliary/gather/wp_depicter_sqli_cve_2025_2011                2025-05-08       normal     Yes    WordPress Depicter Plugin SQL Injection (CVE-2025-2011)
+   64   auxiliary/scanner/http/wp_dukapress_file_read                  .                normal     No     WordPress DukaPress Plugin File Read Vulnerability
+   65   auxiliary/scanner/http/wp_duplicator_file_read                 2020-02-19       normal     No     WordPress Duplicator File Read Vulnerability
+   66   auxiliary/scanner/http/wp_easy_wp_smtp                         2020-12-06       normal     No     WordPress Easy WP SMTP Password Reset
+   67   auxiliary/scanner/http/wp_email_sub_news_sqli                  2019-11-13       normal     No     WordPress Email Subscribers and Newsletter Hash SQLi Scanner
+   68   exploit/multi/http/wp_file_manager_rce                         2020-09-09       normal     Yes    WordPress File Manager Unauthenticated Remote Code Execution
+   69   auxiliary/scanner/http/wp_gimedia_library_file_read            .                normal     No     WordPress GI-Media Library Plugin Directory Traversal Vulnerability
+   70   auxiliary/admin/http/wp_google_maps_sqli                       2019-04-02       normal     Yes    WordPress Google Maps Plugin SQL Injection
+   71   exploit/multi/http/wp_hash_form_rce                            2024-05-23       excellent  Yes    WordPress Hash Form Plugin RCE
+   72     \_ target: PHP In-Memory                                     .                .          .      .
+   73     \_ target: Unix/Linux Command Shell                          .                .          .      .
+   74     \_ target: Windows Command Shell                             .                .          .      .
+   75   exploit/unix/webapp/wp_holding_pattern_file_upload             2015-02-11       excellent  Yes    WordPress Holding Pattern Theme Arbitrary File Upload
+   76   exploit/unix/webapp/wp_infinitewp_auth_bypass                  2020-01-14       manual     Yes    WordPress InfiniteWP Client Authentication Bypass
+   77   auxiliary/scanner/http/wp_learnpress_c_fields_sqli             2024-09-11       normal     No     WordPress LearnPress Unauthenticated SQLi (CVE-2024-8522, CVE-2024-8529)
+   78     \_ action: CVE-2024-8522                                     .                .          .      SQL Injection via c_only_fields parameter
+   79     \_ action: CVE-2024-8529                                     .                .          .      SQL Injection via c_fields parameter
+   80   auxiliary/scanner/http/wp_loginizer_log_sqli                   2020-10-21       normal     No     WordPress Loginizer log SQLi Scanner
+   81   auxiliary/dos/http/wordpress_long_password_dos                 2014-11-20       normal     No     WordPress Long Password DoS
+   82   auxiliary/scanner/http/wp_mobileedition_file_read              .                normal     No     WordPress Mobile Edition File Read Vulnerability
+   83   auxiliary/scanner/http/wp_mobile_pack_info_disclosure          .                normal     No     WordPress Mobile Pack Information Disclosure Vulnerability
+   84   auxiliary/scanner/http/wp_modern_events_calendar_sqli          2021-12-13       normal     Yes    WordPress Modern Events Calendar SQLi Scanner
+   85   auxiliary/scanner/http/wp_nextgen_galley_file_read             .                normal     No     WordPress NextGEN Gallery Directory Read Vulnerability
+   86   exploit/multi/http/wp_ninja_forms_unauthenticated_file_upload  2016-05-04       excellent  Yes    WordPress Ninja Forms Unauthenticated File Upload
+   87   exploit/unix/webapp/wp_optimizepress_upload                    2013-11-29       excellent  Yes    WordPress OptimizePress Theme File Upload Vulnerability
+   88   exploit/unix/webapp/wp_phpmailer_host_header                   2017-05-03       average    Yes    WordPress PHPMailer Host Header Command Injection
+   89   auxiliary/gather/wp_photo_gallery_sqli                         2022-03-14       normal     Yes    WordPress Photo Gallery Plugin SQL Injection (CVE-2022-0169)
+   90   exploit/unix/webapp/wp_photo_gallery_unrestricted_file_upload  2014-11-11       excellent  Yes    WordPress Photo Gallery Unrestricted File Upload
+   91   exploit/unix/webapp/wp_pixabay_images_upload                   2015-01-19       excellent  Yes    WordPress Pixabay Images PHP Code Upload
+   92   exploit/unix/webapp/wp_platform_exec                           2015-01-21       excellent  No     WordPress Platform Theme File Upload Vulnerability
+   93   exploit/unix/webapp/wp_advanced_custom_fields_exec             2012-11-14       excellent  Yes    WordPress Plugin Advanced Custom Fields Remote File Inclusion
+   94   auxiliary/admin/http/wp_automatic_plugin_privesc               2021-09-06       normal     Yes    WordPress Plugin Automatic Config Change to RCE
+   95   exploit/unix/webapp/wp_foxypress_upload                        2012-06-05       excellent  Yes    WordPress Plugin Foxypress uploadify.php Arbitrary Code Execution
+   96   exploit/unix/webapp/wp_google_document_embedder_exec           2013-01-03       normal     Yes    WordPress Plugin Google Document Embedder Arbitrary File Disclosure
+   97   auxiliary/scanner/http/wp_perfect_survey_sqli                  2021-10-05       normal     Yes    WordPress Plugin Perfect Survey 1.5.1 SQLi (Unauthenticated)
+   98   exploit/unix/webapp/wp_pie_register_bypass_rce                 2021-10-08       excellent  Yes    WordPress Plugin Pie Register Auth Bypass to RCE
+   99   auxiliary/scanner/http/wordpress_content_injection             2017-02-01       normal     Yes    WordPress REST API Content Injection
+   100    \_ action: LIST                                              .                .          .      List posts
+   101    \_ action: UPDATE                                            .                .          .      Update post
+   102  exploit/multi/http/wp_reallysimplessl_2fa_bypass_rce           2024-11-14       excellent  Yes    WordPress Really Simple SSL Plugin Authentication Bypass to RCE
+   103    \_ target: PHP In-Memory                                     .                .          .      .
+   104    \_ target: Unix In-Memory                                    .                .          .      .
+   105    \_ target: Windows In-Memory                                 .                .          .      .
+   106  exploit/multi/http/wp_responsive_thumbnail_slider_upload       2015-08-28       excellent  Yes    WordPress Responsive Thumbnail Slider Arbitrary File Upload
+   107  exploit/unix/webapp/wp_revslider_upload_execute                2014-11-26       excellent  Yes    WordPress RevSlider File Upload and Execute Vulnerability
+   108  exploit/multi/http/wp_royal_elementor_addons_rce               2023-11-23       excellent  Yes    WordPress Royal Elementor Addons RCE
+   109  auxiliary/scanner/http/wp_simple_backup_file_read              .                normal     No     WordPress Simple Backup File Read Vulnerability
+   110  exploit/multi/http/wp_simple_file_list_rce                     2020-04-27       good       Yes    WordPress Simple File List Unauthenticated Remote Code Execution
+   111  auxiliary/scanner/http/wp_subscribe_comments_file_read         .                normal     No     WordPress Subscribe Comments File Read Vulnerability
+   112  exploit/multi/http/wp_suretriggers_auth_bypass                 2025-03-13       excellent  Yes    WordPress SureTriggers (aka OttoKit) Combined Auth Bypass (CVE-2025-3102, CVE-2025-27007)
+   113    \_ action: CVE-2025-27007                                    .                .          .      SureTriggers <= 1.0.82 auth bypass, reset & RCE
+   114    \_ action: CVE-2025-3102                                     .                .          .      SureTriggers <= 1.0.78 auth bypass & RCE
+   115    \_ target: PHP In-Memory                                     .                .          .      .
+   116    \_ target: Unix In-Memory                                    .                .          .      .
+   117    \_ target: Windows In-Memory                                 .                .          .      .
+   118  auxiliary/admin/http/wp_symposium_sql_injection                2015-08-18       normal     Yes    WordPress Symposium Plugin SQL Injection
+   119  auxiliary/scanner/http/wp_ti_woocommerce_wishlist_sqli         2024-09-25       normal     No     WordPress TI WooCommerce Wishlist SQL Injection (CVE-2024-43917)
+   120  auxiliary/scanner/http/wp_total_upkeep_downloader              2020-12-12       normal     No     WordPress Total Upkeep Unauthenticated Backup Downloader
+   121  auxiliary/dos/http/wordpress_directory_traversal_dos           .                normal     No     WordPress Traversal Directory DoS
+   122  auxiliary/gather/wp_ultimate_csv_importer_user_extract         2015-02-02       normal     Yes    WordPress Ultimate CSV Importer User Table Extract
+   123  auxiliary/scanner/http/wp_ultimate_member_sorting_sqli         2024-02-10       normal     No     WordPress Ultimate Member SQL Injection (CVE-2024-1071)
+   124  exploit/unix/webapp/wp_total_cache_exec                        2013-04-17       excellent  Yes    WordPress W3 Total Cache PHP Code Execution
+   125  auxiliary/gather/wp_w3_total_cache_hash_extract                .                normal     No     WordPress W3-Total-Cache Plugin 0.9.2.4 (or before) Username and Hash Extract
+   126  auxiliary/admin/http/wp_easycart_privilege_escalation          2015-02-25       normal     Yes    WordPress WP EasyCart Plugin Privilege Escalation
+   127  exploit/unix/webapp/wp_easycart_unrestricted_file_upload       2015-01-08       excellent  No     WordPress WP EasyCart Unrestricted File Upload
+   128  auxiliary/scanner/http/wp_fastest_cache_sqli                   2023-11-14       normal     No     WordPress WP Fastest Cache Unauthenticated SQLi (CVE-2023-6063)
+   129  auxiliary/admin/http/wp_gdpr_compliance_privesc                2018-11-08       normal     Yes    WordPress WP GDPR Compliance Plugin Privilege Escalation
+   130  exploit/unix/webapp/wp_mobile_detector_upload_execute          2016-05-31       excellent  Yes    WordPress WP Mobile Detector 3.5 Shell Upload
+   131  exploit/unix/webapp/wp_symposium_shell_upload                  2014-12-11       excellent  Yes    WordPress WP Symposium 14.11 Shell Upload
+   132  exploit/multi/http/wp_time_capsule_file_upload_rce             2024-11-15       excellent  Yes    WordPress WP Time Capsule Arbitrary File Upload to RCE
+   133    \_ target: PHP In-Memory                                     .                .          .      .
+   134    \_ target: Unix/Linux Command Shell                          .                .          .      .
+   135    \_ target: Windows Command Shell                             .                .          .      .
+   136  exploit/unix/webapp/wp_property_upload_exec                    2012-03-26       excellent  Yes    WordPress WP-Property PHP File Upload Vulnerability
+   137  auxiliary/admin/http/wp_wplms_privilege_escalation             2015-02-09       normal     Yes    WordPress WPLMS Theme Privilege Escalation
+   138  auxiliary/scanner/http/wp_wps_hide_login_revealer              2021-10-27       normal     No     WordPress WPS Hide Login Login Page Revealer
+   139  exploit/unix/webapp/wp_wptouch_file_upload                     2014-07-14       excellent  Yes    WordPress WPTouch Authenticated File Upload
+   140  exploit/unix/webapp/wp_wpshop_ecommerce_file_upload            2015-03-09       excellent  Yes    WordPress WPshop eCommerce Arbitrary File Upload Vulnerability
+   141  auxiliary/scanner/http/wordpress_ghost_scanner                 .                normal     No     WordPress XMLRPC GHOST Vulnerability Scanner
+   142  exploit/unix/webapp/wp_lastpost_exec                           2005-08-09       excellent  No     WordPress cache_lastpostdate Arbitrary Code Execution
+   143  auxiliary/admin/http/wp_custom_contact_forms                   2014-08-07       normal     No     WordPress custom-contact-forms Plugin SQL Upload
+   144  exploit/multi/http/wp_automatic_sqli_to_rce                    2024-03-13       excellent  Yes    WordPress wp-automatic Plugin SQLi Admin Creation
+   145    \_ target: PHP In-Memory                                     .                .          .      .
+   146    \_ target: Unix/Linux Command Shell                          .                .          .      .
+   147    \_ target: Windows Command Shell                             .                .          .      .
+   148  exploit/unix/webapp/wp_wpdiscuz_unauthenticated_file_upload    2020-02-21       excellent  Yes    WordPress wpDiscuz Unauthenticated File Upload Vulnerability
+   149  exploit/unix/webapp/wp_ajax_load_more_file_upload              2015-10-10       excellent  Yes    Wordpress Ajax Load More PHP Upload Vulnerability
+   150  auxiliary/scanner/http/wp_arbitrary_file_deletion              2018-06-26       normal     No     Wordpress Arbitrary File Deletion
+   151  auxiliary/gather/wp_bookingpress_category_services_sqli        2022-02-28       normal     Yes    Wordpress BookingPress bookingpress_front_get_category_services SQLi
+   152  auxiliary/scanner/http/wp_bulletproofsecurity_backups          2021-09-17       normal     No     Wordpress BulletProof Security Backup Disclosure
+   153  exploit/unix/webapp/wp_creativecontactform_file_upload         2014-10-22       excellent  Yes    Wordpress Creative Contact Form Upload Vulnerability
+   154  exploit/unix/webapp/wp_downloadmanager_upload                  2014-12-03       excellent  Yes    Wordpress Download Manager (download-manager) Unauthenticated File Upload
+   155  exploit/multi/http/wp_dnd_mul_file_rce                         2020-05-11       excellent  Yes    Wordpress Drag and Drop Multi File Uploader RCE
+   156  exploit/multi/http/wp_plugin_fma_shortcode_unauth_rce          2023-05-31       excellent  Yes    Wordpress File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution through shortcode
+   157    \_ target: PHP                                               .                .          .      .
+   158    \_ target: Unix Command                                      .                .          .      .
+   159    \_ target: Linux Dropper                                     .                .          .      .
+   160    \_ target: Windows Command                                   .                .          .      .
+   161    \_ target: Windows Dropper                                   .                .          .      .
+   162  exploit/unix/webapp/wp_frontend_editor_file_upload             2012-07-04       excellent  Yes    Wordpress Front-end Editor File Upload
+   163  exploit/unix/webapp/wp_inboundio_marketing_file_upload         2015-03-24       excellent  Yes    Wordpress InBoundio Marketing PHP Upload Vulnerability
+   164  exploit/unix/webapp/wp_infusionsoft_upload                     2014-09-25       excellent  Yes    Wordpress InfusionSoft Upload Vulnerability
+   165  auxiliary/scanner/http/wp_learnpress_sqli                      2020-04-29       normal     No     Wordpress LearnPress current_items Authenticated SQLi
+   166  exploit/multi/http/wp_litespeed_cookie_theft                   2024-09-04       excellent  Yes    Wordpress LiteSpeed Cache plugin cookie theft
+   167    \_ target: PHP In-Memory                                     .                .          .      .
+   168    \_ target: Unix In-Memory                                    .                .          .      .
+   169    \_ target: Windows In-Memory                                 .                .          .      .
+   170  exploit/unix/webapp/wp_wysija_newsletters_upload               2014-07-01       excellent  Yes    Wordpress MailPoet Newsletters (wysija-newsletters) Unauthenticated File Upload
+   171  auxiliary/admin/http/wp_masterstudy_privesc                    2022-02-18       normal     Yes    Wordpress MasterStudy Admin Account Creation
+   172  exploit/unix/webapp/wp_nmediawebsite_file_upload               2015-04-12       excellent  Yes    Wordpress N-Media Website Contact Form Upload Vulnerability
+   173  auxiliary/admin/http/wp_post_smtp_acct_takeover                2024-01-10       normal     Yes    Wordpress POST SMTP Account Takeover
+   174  auxiliary/scanner/http/wp_paid_membership_pro_code_sqli        2023-01-12       normal     Yes    Wordpress Paid Membership Pro code Unauthenticated SQLi
+   175  auxiliary/scanner/http/wordpress_pingback_access               .                normal     No     Wordpress Pingback Locator
+   176  exploit/unix/webapp/wp_plainview_activity_monitor_rce          2018-08-26       excellent  Yes    Wordpress Plainview Activity Monitor RCE
+   177  exploit/multi/http/wp_plugin_backup_guard_rce                  2021-05-04       excellent  Yes    Wordpress Plugin Backup Guard - Authenticated Remote Code Execution
+   178  exploit/multi/http/wp_catch_themes_demo_import                 2021-10-21       normal     Yes    Wordpress Plugin Catch Themes Demo Import RCE
+   179  exploit/multi/http/wp_plugin_elementor_auth_upload_rce         2022-03-29       excellent  Yes    Wordpress Plugin Elementor Authenticated Upload Remote Code Execution
+   180  exploit/multi/http/wp_plugin_modern_events_calendar_rce        2021-01-29       excellent  Yes    Wordpress Plugin Modern Events Calendar - Authenticated Remote Code Execution
+   181  exploit/multi/http/wp_plugin_sp_project_document_rce           2021-06-14       excellent  Yes    Wordpress Plugin SP Project and Document - Authenticated Remote Code Execution
+   182  auxiliary/scanner/http/wp_woocommerce_payments_add_user        2023-03-22       normal     Yes    Wordpress Plugin WooCommerce Payments Unauthenticated Admin Creation
+   183  exploit/multi/http/wp_popular_posts_rce                        2021-06-11       normal     Yes    Wordpress Popular Posts Authenticated RCE
+   184  exploit/unix/webapp/wp_reflexgallery_file_upload               2012-12-30       excellent  Yes    Wordpress Reflex Gallery Upload Vulnerability
+   185  auxiliary/scanner/http/wp_registrationmagic_sqli               2022-01-23       normal     Yes    Wordpress RegistrationMagic task_ids Authenticated SQLi
+   186  auxiliary/scanner/http/wordpress_scanner                       .                normal     No     Wordpress Scanner
+   187  auxiliary/scanner/http/wp_secure_copy_content_protection_sqli  2021-11-08       normal     Yes    Wordpress Secure Copy Content Protection and Content Locking sccp_id Unauthenticated SQLi
+   188  exploit/unix/webapp/wp_slideshowgallery_upload                 2014-08-28       excellent  Yes    Wordpress SlideShow Gallery Authenticated File Upload
+   189  exploit/unix/webapp/wp_worktheflow_upload                      2015-03-14       excellent  Yes    Wordpress Work The Flow Upload Vulnerability
+   190  auxiliary/scanner/http/wordpress_xmlrpc_login                  .                normal     No     Wordpress XML-RPC Username/Password Login Scanner
+   191  auxiliary/scanner/http/wordpress_multicall_creds               .                normal     No     Wordpress XML-RPC system.multicall Credential Collector
+   192  auxiliary/dos/http/wordpress_xmlrpc_dos                        2014-08-06       normal     No     Wordpress XMLRPC DoS
+   193  exploit/linux/http/tr064_ntpserver_cmdinject                   2016-11-07       normal     Yes    Zyxel/Eir D1000 DSL Modem NewNTPServer Command Injection Over TR-064
+   194    \_ target: MIPS Big Endian                                   .                .          .      .
+   195    \_ target: MIPS Little Endian                                .                .          .      .
+   196  exploit/unix/webapp/jquery_file_upload                         2018-10-09       excellent  Yes    blueimp's jQuery (Arbitrary) File Upload
+   197    \_ target: PHP Dropper                                       .                .          .      .
+   198    \_ target: Linux Dropper                                     .                .          .      .
+
+
+Interact with a module by name or index. For example info 198, use 198 or use exploit/unix/webapp/jquery_file_upload
+After interacting with a module you can manually set a TARGET with set TARGET 'Linux Dropper'
+
+msf > search wordpress 6.9.1
+[-] No results from search
+msf > use auxiliary/scanner/http/wordpress_scanner
+msf auxiliary(scanner/http/wordpress_scanner) > set RHOSTS 80.74.136.150
+RHOSTS => 80.74.136.150
+msf auxiliary(scanner/http/wordpress_scanner) > run
+[*] Trying 80.74.136.150
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(scanner/http/wordpress_scanner) > use auxiliary/scanner/http/wordpress_user_enum
+[-] No results from search
+[-] Failed to load module: auxiliary/scanner/http/wordpress_user_enum
+msf auxiliary(scanner/http/wordpress_scanner) > set RHOSTS 80.74.136.150
+RHOSTS => 80.74.136.150
+msf auxiliary(scanner/http/wordpress_scanner) > set TARGETURI /
+TARGETURI => /
+msf auxiliary(scanner/http/wordpress_scanner) > run
+[*] Trying 80.74.136.150
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(scanner/http/wordpress_scanner) > use auxiliary/scanner/http/wordpress_xmlrpc_login
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > set RHOSTS 80.74.136.150
+RHOSTS => 80.74.136.150
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > # Versuche nur zu prüfen, ob die Schnittstelle antwortet
+[-] Unknown command: #. Run the help command for more details.
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > set CHECK_ONLY true
+[!] Unknown datastore option: CHECK_ONLY.
+CHECK_ONLY => true
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > run
+[*] 80.74.136.150:80     :/xmlrpc.php - Sending Hello...
+[-] XMLRPC is not enabled! Aborting
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > exit()
+[-] Unknown command: exit(). Did you mean exit? Run the help command for more details.
+msf auxiliary(scanner/http/wordpress_xmlrpc_login) > exit
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ msfconsole
+Metasploit tip: Open an interactive Ruby terminal with irb
+
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMM                MMMMMMMMMM
+MMMN$                           vMMMM
+MMMNl  MMMMM             MMMMM  JMMMM
+MMMNl  MMMMMMMN       NMMMMMMM  JMMMM
+MMMNl  MMMMMMMMMNmmmNMMMMMMMMM  JMMMM
+MMMNI  MMMMMMMMMMMMMMMMMMMMMMM  jMMMM
+MMMNI  MMMMMMMMMMMMMMMMMMMMMMM  jMMMM
+MMMNI  MMMMM   MMMMMMM   MMMMM  jMMMM
+MMMNI  MMMMM   MMMMMMM   MMMMM  jMMMM
+MMMNI  MMMNM   MMMMMMM   MMMMM  jMMMM
+MMMNI  WMMMM   MMMMMMM   MMMM#  JMMMM
+MMMMR  ?MMNM             MMMMM .dMMMM
+MMMMNm `?MMM             MMMM` dMMMMM
+MMMMMMN  ?MM             MM?  NMMMMMN
+MMMMMMMMNe                 JMMMMMNMMM
+MMMMMMMMMMNm,            eMMMMMNMMNMM
+MMMMNNMNMMMMMNx        MMMMMMNMMNMMNM
+MMMMMMMMNMMNMMMMm+..+MMNMMNMNMMNMMNMM
+        https://metasploit.com
+
+
+       =[ metasploit v6.4.99-dev                                ]
++ -- --=[ 2,572 exploits - 1,317 auxiliary - 1,683 payloads     ]
++ -- --=[ 433 post - 49 encoders - 13 nops - 9 evasion          ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+The Metasploit Framework is a Rapid7 Open Source Project
+
+msf > search otter
+[-] No results from search
+msf > search themeisle
+[-] No results from search
+msf > search contact-form-7
+[-] No results from search
+msf > Interrupt: use the 'exit' command to quit
+msf > exit
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ # In einem neuen Terminal-Fenster (nicht in msfconsole):
+wpscan --url http://80.74.136.150 --enumerate p --enumerate u --detection-mode aggressive
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.28
+
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[i] Updating the Database ...
+[i] Update completed.
+
+
+Scan Aborted: The remote website is up, but does not seem to be running WordPress.
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ wpscan --url https://pfadi-pulacha.ch --enumerate p --enumerate u --detection-mode aggressive
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.28
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+
+Scan Aborted: The target is responding with a 403, this might be due to a WAF. Please re-try with --random-user-agent
+
+┌──(arsi㉿ArSiJa1)-[~]
+└─$ wpscan --url https://pfadi-pulacha.ch --enumerate p --enumerate u --random-user-agent --ignore-main-redirect --stealthy
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.28
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[+] URL: https://pfadi-pulacha.ch/ [80.74.136.150]
+[+] Started: Thu Feb  5 20:24:25 2026
+
+Interesting Finding(s):
+
+[+] Headers
+ | Interesting Entries:
+ |  - server: nginx
+ |  - access-control-allow-methods: GET,POST, GET,POST
+ |  - access-control-allow-headers: Content-Type, Authorization, Content-Type, Authorization
+ |  - content-security-policy: upgrade-insecure-requests;, upgrade-insecure-requests;
+ |  - cross-origin-embedder-policy: unsafe-none; report-to='default', unsafe-none; report-to='default'
+ |  - cross-origin-embedder-policy-report-only: unsafe-none; report-to='default', unsafe-none; report-to='default'
+ |  - cross-origin-opener-policy: unsafe-none, unsafe-none
+ |  - cross-origin-opener-policy-report-only: unsafe-none; report-to='default', unsafe-none; report-to='default'
+ |  - cross-origin-resource-policy: cross-origin, cross-origin
+ |  - permissions-policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=(), accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+ |  - referrer-policy: strict-origin-when-cross-origin, strict-origin-when-cross-origin
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[+] WordPress version 6.9.1 identified (Latest, released on 2026-02-03).
+ | Found By: Rss Generator (Passive Detection)
+ |  - https://pfadi-pulacha.ch/?feed=rss2, <generator>https://wordpress.org/?v=6.9.1</generator>
+ |  - https://pfadi-pulacha.ch/?feed=comments-rss2, <generator>https://wordpress.org/?v=6.9.1</generator>
+
+[+] WordPress theme in use: twentytwenty
+ | Location: https://pfadi-pulacha.ch/wp-content/themes/twentytwenty/
+ | Latest Version: 3.0 (up to date)
+ | Last Updated: 2025-12-03T00:00:00.000Z
+ | Style URL: https://pfadi-pulacha.ch/wp-content/themes/twentytwenty/style.css?ver=3.0
+ | Style Name: Twenty Twenty
+ | Style URI: https://wordpress.org/themes/twentytwenty/
+ | Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 3.0 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://pfadi-pulacha.ch/wp-content/themes/twentytwenty/style.css?ver=3.0, Match: 'Version: 3.0'
+
+[+] Enumerating Users (via Passive Methods)
+
+[i] User(s) Identified:
+
+[+] junupulacha
+ | Found By: Rss Generator (Passive Detection)
+
+[!] No WPScan API Token given, as a result vulnerability data has not been output.
+[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[+] Finished: Thu Feb  5 20:24:28 2026
+[+] Requests Done: 8
+[+] Cached Requests: 4
+[+] Data Sent: 2.166 KB
+[+] Data Received: 428.972 KB
+[+] Memory used: 191.234 MB
+[+] Elapsed time: 00:00:02

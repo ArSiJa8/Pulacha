@@ -1,0 +1,156 @@
+:root {
+    --bg-color: #0c0c0c;
+    --terminal-bg: #1a1a1a;
+    --text-color: #00ff41;
+    --header-color: #ffffff;
+    --accent-color: #008f11;
+    --warning-color: #ffcc00;
+    --error-color: #ff5f56;
+    --border-color: #333;
+    --font-main: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Terminal Container */
+.terminal-container {
+    width: 100%;
+    max-width: 1000px;
+    background: var(--terminal-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.15);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Obere Leiste */
+.terminal-header {
+    background: #333;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dots { display: flex; gap: 6px; }
+.dot { width: 12px; height: 12px; border-radius: 50%; }
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.user-info {
+    color: #aaa;
+    font-size: 0.85em;
+}
+
+/* Eingabebereich */
+.controls {
+    padding: 12px 15px;
+    background: #111;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+input[type="file"] {
+    color: #888;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#searchInput {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    border-left: 2px solid var(--accent-color);
+    padding-left: 12px;
+    color: var(--text-color);
+    font-family: inherit;
+    outline: none;
+}
+
+#searchInput::placeholder {
+    color: #004411;
+}
+
+/* Output Bereich */
+.content {
+    padding: 20px;
+    height: 60vh;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-size: 0.95em;
+    line-height: 1.4;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-color) #1a1a1a;
+}
+
+/* Scrollbar Styling für Chrome/Edge/Safari */
+.content::-webkit-scrollbar { width: 8px; }
+.content::-webkit-scrollbar-track { background: #1a1a1a; }
+.content::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+.content::-webkit-scrollbar-thumb:hover { background: var(--accent-color); }
+
+/* Log-Klassen */
+.line-warning { color: var(--warning-color); }
+.line-error { color: var(--error-color); text-shadow: 0 0 5px rgba(255, 95, 86, 0.5); }
+.line-success { color: #5bc0de; font-weight: bold; }
+.line-prompt { color: #fff; }
+
+/* Subtile Scanlines Animation */
+.terminal-container::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+    background-size: 100% 4px, 3px 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+:root {
+    /* ... deine anderen Variablen ... */
+    --success-tag-color: #00f5ff; /* Leuchtendes Cyan für [+] */
+}
+
+/* Neue Klasse für das [+] Tag */
+.line-success-tag { 
+    color: var(--success-tag-color); 
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 245, 255, 0.3);
+}
+
+:root {
+    --bg-color: #0c0c0c;
+    --terminal-bg: #1a1a1a;
+    --text-color: #00ff41;
+    --header-color: #ffffff;
+    --accent-color: #008f11;
+    --warning-color: #ffcc00;
+    --error-color: #ff5f56;
+    --info-color: #00d7ff; /* Helles Blau für [i] */
+    --border-color: #333;
+    --font-main: 'Courier New', Courier, monospace;
+}
+
+/* ... (Rest deines CSS bleibt gleich) ... */
+
+.line-info { color: var(--info-color); }
+.line-warning { color: var(--warning-color); }
+.line-error { color: var(--error-color); text-shadow: 0 0 5px rgba(255, 95, 86, 0.5); }
+.line-success { color: #5bc0de; font-weight: bold; }
+.line-prompt { color: #fff; }
