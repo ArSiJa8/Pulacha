@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Pfadi Pulacha</h1>
+    <div id="terminal-overlay">
+        <div id="boot-sequence"></div>
+    </div>
+
+    <div class="terminal-container" id="main-ui" style="display: none;">
+        <div class="terminal-header">
+            <div class="dots">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="user-info">admin@pfadi-pulacha:~Velio</div>
+        </div>
+        
+        <div class="content" id="terminal-content">
+            <h1>Pfadi Pulacha - Command Center</h1>
+            <p class="line-info">[i] System initialisiert...</p>
+            
+            <div class="exploit-wrap">
+                <a href="/exploits" class="exploit-btn">
+                    <span class="btn-glitch"></span>
+                    EXPLOITS
+                    <span class="btn-tag">[STAGED]</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
