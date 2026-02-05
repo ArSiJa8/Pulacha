@@ -6,7 +6,9 @@ const bootSequence = [
     { text: "[!!] WARNING: UNSANCTIONED ACCESS DETECTED", type: "line-warning" },
     { text: "BYPASSING FIREWALL...", type: "line-error" },
     { text: "INJECTING EXPLOIT PAYLOAD...", type: "line-error" },
-    { text: "ACCESS GRANTED. WELCOME, OPERATOR.", type: "line-success-tag" }
+    { text: "ACCESS GRANTED. WELCOME, OPERATOR.", type: "line-success-tag" },
+    { text: "SYSTEM HACKED BY VELIO!", type: "line-error" },
+    { text: "PS: NUR SPASS", type: "line-info" }
 ];
 
 const bootContainer = document.getElementById('boot-sequence');
@@ -14,25 +16,33 @@ const overlay = document.getElementById('terminal-overlay');
 const mainUI = document.getElementById('main-ui');
 
 async function runBoot() {
-    for (let i = 0; i < bootSequence.length; i++) {
+    // Initialer Delay
+    await new Promise(r => setTimeout(r, 500));
+
+    for (const lineData of bootSequence) {
         const line = document.createElement('div');
-        line.className = `boot-line ${bootSequence[i].type}`;
-        line.textContent = `> ${bootSequence[i].text}`;
+        line.style.marginBottom = "8px";
+        line.className = lineData.type;
+        line.textContent = `> ${lineData.text}`;
         bootContainer.appendChild(line);
         
-        // Zufällige Verzögerung für Realismus
-        await new Promise(resolve => setTimeout(resolve, Math.random() * 400 + 200));
+        // Zufälliges Tipp-Tempo
+        await new Promise(r => setTimeout(r, Math.random() * 300 + 100));
     }
 
-    // Kurze Pause am Ende, dann Ausblenden
+    // Finale Sequenz: Flash-Effekt vor dem Übergang
     setTimeout(() => {
-        overlay.style.transition = "opacity 0.5s ease";
+        overlay.style.transition = "opacity 0.4s ease, filter 0.4s ease";
+        overlay.style.filter = "brightness(3)";
         overlay.style.opacity = "0";
+        
         setTimeout(() => {
             overlay.style.display = "none";
             mainUI.style.display = "flex";
-        }, 500);
-    }, 1000);
+            // Fokus auf das Terminal setzen
+            document.getElementById('searchInput').focus();
+        }, 400);
+    }, 800);
 }
 
-window.onload = runBoot;
+document.addEventListener('DOMContentLoaded', runBoot);
