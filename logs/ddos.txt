@@ -1,0 +1,18 @@
+> [i] Lade Angriffs-Konfiguration...
+> [i] Ziel-Parameter erkannt: Port 80 (HTTP)
+> 
+> [+] KONFIGURATION 01 - METHODE: RECOIL
+> [-] Timeout: 30s
+> [-] Threads: 99
+> [-] Sockets / Thread: 25
+> [-] Message: "Foular"
+> [!] STATUS: 100% CRASH EXPECTED
+> 
+> [+] KONFIGURATION 02 - METHODE: HTTP
+> [-] Timeout: 30s
+> [-] Threads: 10
+> [-] Sockets / Thread: 25
+> [-] Speed: MAXIMAL (Ultra-Fast)
+> [!] STATUS: 100% CRASH EXPECTED
+> 
+> [i] Warte auf Benutzerinteraktion...
